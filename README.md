@@ -47,6 +47,8 @@ Robot **AiO (All in One)** adalah wheeled robot dengan sistem penggerak dua roda
 | | TRIG | `D12` |
 | **Bluetooth HC-05** | TX | `D15` |
 | | RX | `D16` |
+| **Tombol Mode** |  | `A6` |
+| **LED Indikator Mode** |  | `D17` |
 
 ---
 
@@ -91,7 +93,7 @@ Kendalikan robot secara nirkabel menggunakan smartphone Anda.
 1. Pastikan modul Bluetooth terpasang dengan benar
 2. Hubungkan mikrokontroler ke komputer via kabel Micro USB
 3. Buka Arduino IDE
-4. Upload program kontrol Bluetooth
+4. Masukan program Bluetooth pada Arduino IDE (Pastikan Program yang dituliskan benar!)
 5. Download dan install aplikasi **Bluetooth Controller MIT**
 6. Aktifkan Bluetooth di smartphone
 7. Buka aplikasi Bluetooth Controller MIT
@@ -119,7 +121,7 @@ Robot akan mengikuti dinding menggunakan sensor ultrasonik.
 1. Pastikan modul ultrasonik terpasang dengan benar
 2. Hubungkan mikrokontroler ke komputer via kabel Micro USB
 3. Buka Arduino IDE
-4. Upload program Wall Follower
+4. Masukan program Wall Follower pada Arduino IDE (Pastikan Program yang dituliskan benar!)
 5. Upload program ke Arduino Nano
 6. Pasang baterai pada robot
 7. Letakkan robot di arena Wall Follower
@@ -144,7 +146,7 @@ Robot akan mengikuti garis hitam menggunakan sensor inframerah.
 1. **Kalibrasi sensor**: Pastikan sensor IR dapat mendeteksi jalur hitam. Jika belum terdeteksi, putar **varistor** (komponen kotak biru) pada robot
 2. Hubungkan mikrokontroler ke komputer via kabel Micro USB
 3. Buka Arduino IDE
-4. Upload program Line Follower
+4. Masukan program Line Follower pada Arduino IDE (Pastikan Program yang dituliskan benar!)
 5. Upload program ke Arduino Nano
 6. Pasang baterai pada robot
 7. Letakkan robot di arena Line Follower
