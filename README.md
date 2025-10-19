@@ -50,6 +50,14 @@ Robot **AiO (All in One)** adalah wheeled robot dengan sistem penggerak dua roda
 | **Tombol Mode** |  | `A6` |
 | **LED Indikator Mode** |  | `D17` |
 
+| **Modul** | **Pin Modul** | **Pin IO PCF8574T (0x20)** |
+|:----------|:--------------|:---------------------|
+| **LF1 (Ujung Kiri)** | ENA | `0` |
+| **LF2 (Kiri)** | ENA | `2` |
+| **LF7 (Kanan)** | ENA | `6` |
+| **LF8 (Ujung Kanan)** | ENA | `7` |
+
+
 ---
 
 ## 🛠️ Percobaan & Panduan
