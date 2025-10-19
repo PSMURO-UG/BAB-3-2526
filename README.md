@@ -39,7 +39,7 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
     3. Buka aplikasi Arduino IDE
     4. Ketikan program dibawah ini (Pastikan Program yang dituliskan Benar)
     
-- [<Kode Program>](https://github.com/ElectroBoi/BAB-3-2526/tree/main)
+- [Kode Program](https://github.com/ElectroBoi/BAB-3-2526/tree/main)
 ## [Perc. 3] Mode WallFollower menggunakan Sensor HCSR04 / HCSR05
 ## [Perc. 4] Mode LineFollower menggunakan Sensor Inframerah dan IC I2c PCF8574T
 ## [Perc. Mandiri 1] Mengganti Mode dengan Button
