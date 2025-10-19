@@ -78,6 +78,7 @@ Robot **AiO (All in One)** adalah wheeled robot dengan sistem penggerak dua roda
 1. Pasang mikrokontroler menghadap ke atas pada PCB
 2. Pasang modul HC-05 menghadap ke atas pada PCB
 3. Pasang sensor HC-SR04/05 menghadap keluar pada PCB
+4. Check penempatan setiap modul (verifikasi pada asisten terlebih dahulu sebelum robot dinyalakan!)
 
 ---
 
