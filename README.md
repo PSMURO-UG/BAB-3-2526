@@ -6,17 +6,23 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
 
 ## Skematik Robot dan Koneksi Pin pada Arduino Nano
 ![Skematik](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
 
 | **Nama Modul**|**Pin pada Modul**| **Pin pada Arduno Nano**|
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | `string`|
-| `api_key` | `string` | `string`|
-| `api_key` | `string` | `string`|
+| `L298N Motor Driver` | `ENA` | `D5`|
+|  | `IN1` | `D3`|
+|  | `IN2` | `D4`|
+|  | `IN3` | `D2`|
+|  | `IN4` | `D7`|
+|  | `ENB` | `D6`|
+| `UltraSonik Depan` | `ECHO` | `D10`|
+|  | `TRIG` | `D11`|
+| `UltraSonik Kiri` | `ECHO` | `D9`|
+|  | `TRIG` | `D8`|
+| `UltraSonik Kanan` | `ECHO` | `D13`|
+|  | `TRIG` | `D12`|
+|  `Bluetooth`| `Tx` | `D15`|
+|  | `Rx` | `D16`|
 
 ## [Perc. 1] Rangakai Komponen pada Robot
 **[*Top View*]**
