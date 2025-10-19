@@ -86,7 +86,7 @@ Robot **AiO (All in One)** adalah wheeled robot dengan sistem penggerak dua roda
 
 ### [Percobaan 2] Kontrol Bluetooth dengan HC-05
 
-Kendalikan robot secara nirkabel menggunakan smartphone Anda.
+Kendalikan robot secara nirkabel menggunakan smartphone via Bluetooth.
 
 #### Langkah Kerja:
 
