@@ -27,7 +27,7 @@ Robot **AiO (All in One)** adalah wheeled robot dengan sistem penggerak dua roda
 
 ### Skematik Robot
 
-![Skematik Fritzing](https://github.com/ElectroBoi/BAB-3-2526/blob/main/images/Schematic.png)
+![Skematik Fritzing](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Skematik/Fritzing.png)
 
 [![Skematik](https://img.shields.io/badge/Skematik_PDF-green?style=for-the-badge)](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Skematik/AiO%20MuRo%20Robot%20V2.pdf)
 
