@@ -10,6 +10,8 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
 - Live previews
 - Fullscreen mode
 - Cross platform
+
+
 | **Nama Modul**|**Pin pada Modul**| **Pin pada Arduno Nano**|
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | `string`|
