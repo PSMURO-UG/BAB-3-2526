@@ -1,15 +1,18 @@
 #include <SofwareSerial.h>
-#define IN1 2
-#define IN2 3
-#define IN3 4
-#define IN4 7
-#define ENA 6
-#define ENB 5
+
 #define HCRx 15
 #define HCTx 16
 SoftwarSerial HC05();
+
+// Motor control pins
+#define IN4 7
+#define IN3 2
+#define IN2 4
+#define IN1 3
+#define ENA 5
+#define ENB 6
+
 void setup() {
- // put your setup code here, to run once:
  pinMode(kiriMaju, OUTPUT);
  pinMode(kiriMundur, OUTPUT);
  pinMode(kananMaju, OUTPUT);
