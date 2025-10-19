@@ -6,6 +6,8 @@
 ![Banner](https://github.com/ElectroBoi/BAB-3-2526/blob/main/images/Banner.png)
 
 [![Arduino](https://img.shields.io/badge/Arduino-Nano-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://github.com/ElectroBoi/BAB-3-2526)
+
 </div>
 
 ---
@@ -84,6 +86,12 @@ Kendalikan robot secara nirkabel menggunakan smartphone Anda.
 2. Hubungkan mikrokontroler ke komputer via kabel Micro USB
 3. Buka Arduino IDE
 4. Upload program kontrol Bluetooth
+5. Download dan install aplikasi **Bluetooth Controller MIT**
+6. Aktifkan Bluetooth di smartphone
+7. Buka aplikasi Bluetooth Controller MIT
+8. Tekan **"Speech Language"** dan pilih bahasa **(id) Indonesia** atau **(en) English**
+9. Tekan **"Connect"** dan pilih modul Bluetooth robot
+10. Gunakan **D-pad** untuk kontrol manual atau **tombol mic** untuk perintah suara
 
 #### Download Resources:
 
@@ -93,15 +101,6 @@ Kendalikan robot secara nirkabel menggunakan smartphone Anda.
 [![Aplikasi BT](https://img.shields.io/badge/Aplikasi_BT-Download-green?style=for-the-badge)](https://drive.google.com/file/d/139XglMQmpKbAmF9NAKJcPuc5kbBICK5A/view)
 
 </div>
-
-#### Setup Aplikasi:
-
-5. Download dan install aplikasi **Bluetooth Controller MIT**
-6. Aktifkan Bluetooth di smartphone
-7. Buka aplikasi Bluetooth Controller MIT
-8. Tekan **"Speech Language"** dan pilih bahasa **(id) Indonesia** atau **(en) English**
-9. Tekan **"Connect"** dan pilih modul Bluetooth robot
-10. Gunakan **D-pad** untuk kontrol manual atau **tombol mic** untuk perintah suara
 
 ---
 
@@ -115,17 +114,18 @@ Robot akan mengikuti dinding menggunakan sensor ultrasonik.
 2. Hubungkan mikrokontroler ke komputer via kabel Micro USB
 3. Buka Arduino IDE
 4. Upload program Wall Follower
+5. Upload program ke Arduino Nano
+6. Pasang baterai pada robot
+7. Letakkan robot di arena Wall Follower
+8. Nyalakan switch dan lihat robot beraksi
+
+#### Download Resources:
 
 <div align="center">
 
 [![Kode Program WF](https://img.shields.io/badge/Kode_Program_WF-Download-orange?style=for-the-badge)](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/WF.ino)
 
 </div>
-
-5. Upload program ke Arduino Nano
-6. Pasang baterai pada robot
-7. Letakkan robot di arena Wall Follower
-8. Nyalakan switch dan lihat robot beraksi
 
 ---
 
@@ -139,17 +139,18 @@ Robot akan mengikuti garis hitam menggunakan sensor inframerah.
 2. Hubungkan mikrokontroler ke komputer via kabel Micro USB
 3. Buka Arduino IDE
 4. Upload program Line Follower
+5. Upload program ke Arduino Nano
+6. Pasang baterai pada robot
+7. Letakkan robot di arena Line Follower
+8. Nyalakan switch dan lihat robot mengikuti garis
+
+#### Download Resources:
 
 <div align="center">
 
 [![Kode Program LF](https://img.shields.io/badge/Kode_Program_LF-Download-red?style=for-the-badge)](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/LineFollower.ino)
 
 </div>
-
-5. Upload program ke Arduino Nano
-6. Pasang baterai pada robot
-7. Letakkan robot di arena Line Follower
-8. Nyalakan switch dan lihat robot mengikuti garis
 
 ---
 
