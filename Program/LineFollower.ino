@@ -31,15 +31,6 @@ Adafruit_PCF8574 pcf;
 #define IR_RIGHT 6      // IO6
 #define IR_RIGHTMOST 7  // IO7
 
-void motorControl(int in1Value, int in2Value, int in3Value, int in4Value, int leftSpeed, int rightSpeed) {
-  digitalWrite(IN1, in1Value);
-  digitalWrite(IN2, in2Value);
-  digitalWrite(IN3, in3Value);
-  digitalWrite(IN4, in4Value);
-  analogWrite(ENB, rightSpeed);
-  analogWrite(ENA, leftSpeed);
-}
-
 void setup() {
   Serial.begin(9600);
   
@@ -84,21 +75,31 @@ void loop() {
   if (left && right){
     // stop
     Serial.println("  Stop");
-    motorControl(LOW, LOW, LOW, LOW, 0, 0);
+    
   }else if (!left && !right) {
     // Forward
     Serial.println("  Maju");
-    motorControl(HIGH, LOW, HIGH, LOW, SPEED_NORMAL, SPEED_NORMAL);
+    motorControl();
   }else if (left || leftmost) {
     // Turn Left
     Serial.println("  Kiri");
-    motorControl(LOW, HIGH, HIGH, LOW, SPEED_TURN, SPEED_TURN);
+    
   }
   else if (right || rightmost) {
     // Turn Right
     Serial.println("  Kanan");
-    motorControl(HIGH, LOW, LOW, HIGH, SPEED_TURN, SPEED_TURN);
+    motorControl(;
   }
   
   delay(10);  // Small delay for stability
+}
+
+
+void motorControl(int in1Value, int in2Value, int in3Value, int in4Value, int leftSpeed, int rightSpeed) {
+  digitalWrite(IN1, in1Value);
+  digitalWrite(IN2, in2Value);
+  digitalWrite(IN3, in3Value);
+  digitalWrite(IN4, in4Value);
+  analogWrite(ENB, rightSpeed);
+  analogWrite(ENA, leftSpeed);
 }
