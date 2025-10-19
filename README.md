@@ -233,8 +233,7 @@ Project ini dibuat untuk keperluan **praktikum robotika**. Silakan gunakan dan m
 
 <div align="center">
 
-**Made with ❤️ for Robotics Education**
+**Pusat Studi. Multimedia dan Robotika**
 
-⭐ Jangan lupa star repository ini jika bermanfaat ⭐
 
 </div>
