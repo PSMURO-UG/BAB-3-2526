@@ -70,7 +70,9 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
 
 **Langkah Kerja :**
 
-    1. Pastikan Sensor Inframerah dapat mendeteksi jalur hitam pada arena, bila belum terdeteksi sensor dapat di kalibrasi dengan memutar Varistor (Komponen kotak biru) pada robot
+    1. Pastikan Sensor Inframerah dapat mendeteksi jalur hitam pada arena, 
+       bila belum terdeteksi sensor dapat di kalibrasi dengan memutar Varistor 
+       (Komponen kotak biru) pada robot
     2. Hubungkan mikrokontroler dengan komputer menggunakan kabel Micro USB
     3. Buka aplikasi Arduino IDE
     4. Ketikan program dibawah ini (Pastikan Program yang dituliskan Benar)
