@@ -92,11 +92,11 @@ dan Wall Follower menggunakan tombol yang terdapat pada pin A6. Setiap mode haru
 indikator LED dengan pola kedip yang berbeda!
 (contoh: mode Bluetooth kedip 1 detik, mode Line Follower kedip ½ detik)
 
-**<** **[Contoh Kode Program PM1](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/contohPM2.ino)** **>**
+**<** **[Contoh Kode Program PM1](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/contohPM1.ino)** **>**
 ## [Perc. Mandiri 2 (Bonus)] Kontrol Bluetooth dengan deteksi tembok
 
 Buatlah program untuk kontrol robot menggunakan Bluetooth Controller yang dilengkapi dengan
 sistem deteksi dinding. Apabila terdapat dinding di depan robot, robot akan berhenti secara
 otomatis!
 
-**<** **[Contoh Kode Program PM2](https://github.com/ElectroBoi/BAB-3-2526/tree/main)** **>**
+**<** **[Contoh Kode Program PM2](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/contohPM2.ino)** **>**
