@@ -1,4 +1,5 @@
 
+![Logo](https://github.com/ElectroBoi/BAB-3-2526/blob/main/images/Banner.png)
 # Robot AiO (All in One) BAB III Praktikum Robotika
 
 Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu roda *idler* (roda tanpa penggerak) pada bagian depan robot, yang dilengkapi dengan rangkaian PCB untuk integrasi dengan modul Bluetooth, sensor ultrasonik, dan sensor inframerah.
