@@ -38,7 +38,7 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
     3. Buka aplikasi Arduino IDE
     4. Ketikan program dibawah ini (Pastikan Program yang dituliskan Benar)
     
- **<** **[Kode Program](https://github.com/ElectroBoi/BAB-3-2526/tree/main)** **>**
+ **<** **[Kode Program BT](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/Bluetooth.ino)** **>**
  **<** **[Aplikasi BT](https://drive.google.com/file/d/139XglMQmpKbAmF9NAKJcPuc5kbBICK5A/view)** **>**
 
     5. Download Aplikasi Bluetooth Controller MIT
@@ -59,7 +59,7 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
     3. Buka aplikasi Arduino IDE
     4. Ketikan program dibawah ini (Pastikan Program yang dituliskan Benar)
     
- **<** **[Kode Program](https://github.com/ElectroBoi/BAB-3-2526/tree/main)** **>**
+ **<** **[Kode Program WF](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/WF.ino)** **>**
 
 ****
     5. Upload Program pada Arduino Nano
@@ -75,7 +75,7 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
     2. Buka aplikasi Arduino IDE
     3. Ketikan program dibawah ini (Pastikan Program yang dituliskan Benar)
 
- **<** **[Kode Program](https://github.com/ElectroBoi/BAB-3-2526/tree/main)** **>**
+ **<** **[Kode Program LF](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/LineFollower.ino)** **>**
 
 ***
     4. Upload Program pada Arduino Nano
@@ -89,8 +89,12 @@ Buatlah program untuk mengganti mode operasi robot antara Bluetooth Controller, 
 dan Wall Follower menggunakan tombol yang terdapat pada pin A6. Setiap mode harus memiliki
 indikator LED dengan pola kedip yang berbeda!
 (contoh: mode Bluetooth kedip 1 detik, mode Line Follower kedip ½ detik)
+
+**<** **[Contoh Kode Program PM1](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/contohPM2.ino)** **>**
 ## [Perc. Mandiri 2 (Bonus)] Kontrol Bluetooth dengan deteksi tembok
 
 Buatlah program untuk kontrol robot menggunakan Bluetooth Controller yang dilengkapi dengan
 sistem deteksi dinding. Apabila terdapat dinding di depan robot, robot akan berhenti secara
 otomatis!
+
+**<** **[Contoh Kode Program PM2](https://github.com/ElectroBoi/BAB-3-2526/tree/main)** **>**
