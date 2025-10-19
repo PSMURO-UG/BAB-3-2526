@@ -6,7 +6,8 @@
 ![Banner](https://github.com/ElectroBoi/BAB-3-2526/blob/main/images/Banner.png)
 
 [![Arduino](https://img.shields.io/badge/Arduino-Nano-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
-[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://github.com/ElectroBoi/BAB-3-2526)
+[![HC-05](https://img.shields.io/badge/Bluetooth-HC--05-blue?style=for-the-badge)](https://components101.com/wireless/hc-05-bluetooth-module)
+[![HC-SR04](https://img.shields.io/badge/Ultrasonic-HC--SR04%2F05-orange?style=for-the-badge)](https://www.handsontec.com/dataspecs/HC-SR04-Ultrasonic.pdf)
 
 </div>
 
@@ -23,6 +24,10 @@ Robot **AiO (All in One)** adalah wheeled robot dengan sistem penggerak dua roda
 ---
 
 ## 🔌 Konfigurasi Pin Arduino Nano
+
+### Skematik Robot
+
+![Skematik](https://github.com/ElectroBoi/BAB-3-2526/blob/main/images/Schematic.png)
 
 ### Pin Connections Table
 
