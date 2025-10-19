@@ -29,6 +29,7 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
     1. Pasangkan mikrokontroler menghadap atas dengan PCB
     2. Pasangkan Modul HC05 menghadap atas dengan PCB
     3. Pasangkan Sensor HCSR04 atau HCSR05 menghadap keluar dengan PCB
+    
 ## [Perc. 2] Integrasi Kontrol Menggunakan Bluetooth (HC05)
 
 **Langkah Kerja :**
