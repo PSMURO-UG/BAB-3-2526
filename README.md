@@ -206,11 +206,6 @@ Robot akan mengikuti garis hitam menggunakan sensor inframerah.
 - Kontrol robot via Bluetooth seperti biasa
 - Robot **berhenti otomatis** jika mendeteksi dinding di depan
 
-<div align="center">
-
-[![Contoh PM2](https://img.shields.io/badge/Contoh_Kode_PM2-View-gold?style=for-the-badge)](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/contohPM2.ino)
-
-</div>
 
 ---
 
