@@ -51,6 +51,46 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
     perintah gerakan pada robot AiO!
 
 ## [Perc. 3] Mode WallFollower menggunakan Sensor HCSR04 / HCSR05
+
+**Langkah Kerja :**
+
+    1. Pastikan Modul UltraSonik Terpasang dengan benar
+    2. Hubungkan mikrokontroler dengan komputer menggunakan kabel Micro USB
+    3. Buka aplikasi Arduino IDE
+    4. Ketikan program dibawah ini (Pastikan Program yang dituliskan Benar)
+    
+ **<** **[Kode Program](https://github.com/ElectroBoi/BAB-3-2526/tree/main)** **>**
+
+****
+    5. Upload Program pada Arduino Nano
+    6. Masukan Baterai pada Robot AiO
+    7. Masukan Robot pada arena WallFlower
+    8. Nyalakan Switch pada robot AiO dan saksikan robot melewati rintangan!
 ## [Perc. 4] Mode LineFollower menggunakan Sensor Inframerah dan IC I2c PCF8574T
+
+**Langkah Kerja :**
+
+
+    1. Hubungkan mikrokontroler dengan komputer menggunakan kabel Micro USB
+    2. Buka aplikasi Arduino IDE
+    3. Ketikan program dibawah ini (Pastikan Program yang dituliskan Benar)
+
+ **<** **[Kode Program](https://github.com/ElectroBoi/BAB-3-2526/tree/main)** **>**
+
+***
+    4. Upload Program pada Arduino Nano
+    5. Masukan Baterai pada Robot AiO
+    6. Masukan Robot pada arena LineFollower
+    7. Nyalakan Switch pada robot AiO dan saksikan robot melewati rintangan!
+    
 ## [Perc. Mandiri 1] Mengganti Mode dengan Button
+
+Buatlah program untuk mengganti mode operasi robot antara Bluetooth Controller, Line Follower,
+dan Wall Follower menggunakan tombol yang terdapat pada pin A6. Setiap mode harus memiliki
+indikator LED dengan pola kedip yang berbeda!
+(contoh: mode Bluetooth kedip 1 detik, mode Line Follower kedip ½ detik)
 ## [Perc. Mandiri 2 (Bonus)] Kontrol Bluetooth dengan deteksi tembok
+
+Buatlah program untuk kontrol robot menggunakan Bluetooth Controller yang dilengkapi dengan
+sistem deteksi dinding. Apabila terdapat dinding di depan robot, robot akan berhenti secara
+otomatis!
