@@ -70,18 +70,18 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
 
 **Langkah Kerja :**
 
-
-    1. Hubungkan mikrokontroler dengan komputer menggunakan kabel Micro USB
-    2. Buka aplikasi Arduino IDE
-    3. Ketikan program dibawah ini (Pastikan Program yang dituliskan Benar)
+    1. Pastikan Sensor Inframerah dapat mendeteksi jalur hitam pada arena, bila belum terdeteksi sensor dapat di kalibrasi dengan memutar Varistor (Komponen kotak biru) pada robot
+    2. Hubungkan mikrokontroler dengan komputer menggunakan kabel Micro USB
+    3. Buka aplikasi Arduino IDE
+    4. Ketikan program dibawah ini (Pastikan Program yang dituliskan Benar)
 
  **<** **[Kode Program LF](https://github.com/ElectroBoi/BAB-3-2526/blob/main/Program/LineFollower.ino)** **>**
 
 ***
-    4. Upload Program pada Arduino Nano
-    5. Masukan Baterai pada Robot AiO
-    6. Masukan Robot pada arena LineFollower
-    7. Nyalakan Switch pada robot AiO dan saksikan robot melewati rintangan!
+    5. Upload Program pada Arduino Nano
+    6. Masukan Baterai pada Robot AiO
+    7. Masukan Robot pada arena LineFollower
+    8. Nyalakan Switch pada robot AiO dan saksikan robot melewati rintangan!
     
 ## [Perc. Mandiri 1] Mengganti Mode dengan Button
 
