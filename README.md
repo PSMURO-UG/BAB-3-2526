@@ -39,7 +39,7 @@ Robot berjenis wheeled robot dengan dua roda untuk mengontrol gerakan, dan satu 
     4. Ketikan program dibawah ini (Pastikan Program yang dituliskan Benar)
     
  **<** **[Kode Program](https://github.com/ElectroBoi/BAB-3-2526/tree/main)** **>**
- **<** **[Aplikasi BT](https://bit.ly/muroBT)** **>**
+ **<** **[Aplikasi BT](https://drive.google.com/file/d/139XglMQmpKbAmF9NAKJcPuc5kbBICK5A/view)** **>**
 
     5. Download Aplikasi Bluetooth Controller MIT
     6. Menyalakan Bluetooth pada setting Smartphone
