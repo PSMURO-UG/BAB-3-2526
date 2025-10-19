@@ -2,20 +2,25 @@
 #include <elapsedMillis.h>
 elapsedMillis timer1;
 elapsedMillis timer2;
+
 // Motor control pins
-#define IN1 2
-#define IN2 3
-#define IN3 4
 #define IN4 7
-#define ENA 6
-#define ENB 5
-#define TRIGGER_PINF 10
-#define ECHO_PINF 11
-#define TRIGGER_PINL 8
-#define ECHO_PINL 9
-#define TRIGGER_PINR 12
-#define ECHO_PINR 13
-#define MAX_DISTANCE 200
+#define IN3 2
+#define IN2 4
+#define IN1 3
+#define ENA 5
+#define ENB 6
+
+// Ultrasonic sensor pins
+#define TRIGGER_PINF  10 
+#define ECHO_PINF     11  
+#define TRIGGER_PINL  8
+#define ECHO_PINL     9 
+#define TRIGGER_PINR  12 
+#define ECHO_PINR     13  
+#define MAX_DISTANCE 200 
+
+
 NewPing sonarF(TRIGGER_PINF, ECHO_PINF, MAX_DISTANCE);
 NewPing sonarL(TRIGGER_PINL, ECHO_PINL, MAX_DISTANCE);
 NewPing sonarR(TRIGGER_PINR, ECHO_PINR, MAX_DISTANCE);
@@ -40,10 +45,10 @@ void loop() {
  } else {
  // Terlalu dekat, mundur dulu
  Serial.println("Halangan di depan, mundur sebentar");
- motorControl(0, 1, 0, 1, 80, 80);
+ motorControl( 80, 80);
  delay(300);
  // Stop sebentar
- motorControl(0, 0, 0, 0, 0, 0);
+ motorControl();
  delay(2500);
  // Bandingkan kiri dan kanan
  if (distanceL < distanceR) {
