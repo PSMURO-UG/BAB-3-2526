@@ -6,8 +6,6 @@
 ![Banner](https://github.com/ElectroBoi/BAB-3-2526/blob/main/images/Banner.png)
 
 [![Arduino](https://img.shields.io/badge/Arduino-Nano-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
-[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://github.com/ElectroBoi/BAB-3-2526)
-
 </div>
 
 ---
