@@ -205,7 +205,6 @@ Robot akan mengikuti garis hitam menggunakan sensor inframerah.
 **Fitur yang diharapkan:**
 - Kontrol robot via Bluetooth seperti biasa
 - Robot **berhenti otomatis** jika mendeteksi dinding di depan
-- Kombinasi kontrol manual dengan safety system
 
 <div align="center">
 
