@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 
-#define HCRx 15
-#define HCTx 16
+#define HCRx 16
+#define HCTx 15
 SoftwareSerial HC05(HCRx, HCTx);
 
 // Motor control pins
