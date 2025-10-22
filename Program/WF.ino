@@ -26,6 +26,13 @@ NewPing sonarL(TRIGGER_PINL, ECHO_PINL, MAX_DISTANCE);
 NewPing sonarR(TRIGGER_PINR, ECHO_PINR, MAX_DISTANCE);
 int distanceF, distanceR, distanceL, currentOrient;
 void setup() {
+ pinMOde(TRIGGER_PINL, OUTPUT);
+ pinMOde(TRIGGER_PINF, OUTPUT);
+ pinMOde(TRIGGER_PINR, OUTPUT);
+ pinMOde(ECHO_PINL, INPUT);
+ pinMOde(ECHO_PINF, INPUT);
+ pinMOde(ECHO_PINR, INPUT);
+ 
  pinMode(kiriMaju, OUTPUT);
  pinMode(kiriMundur, OUTPUT);
  pinMode(kananMaju, OUTPUT);
